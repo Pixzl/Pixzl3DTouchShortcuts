@@ -1,7 +1,7 @@
 ![Pixzl3DTouchShortcuts](pixzl3dtouchshortcuts-logo.png)
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](License)
-[![Platform](https://img.shields.io/cocoapods/p/TSMessages.svg?style=flat)]
+![Platform](https://img.shields.io/cocoapods/p/TSMessages.svg?style=flat)
 
 
 3D Touch Homescreen Shortcuts
