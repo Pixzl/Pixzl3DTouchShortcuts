@@ -13,6 +13,8 @@
 		6E8E711A1DA1274800E34272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E71181DA1274800E34272 /* Main.storyboard */; };
 		6E8E711C1DA1274800E34272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E711B1DA1274800E34272 /* Assets.xcassets */; };
 		6E8E711F1DA1274800E34272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E711D1DA1274800E34272 /* LaunchScreen.storyboard */; };
+		6E8E712D1DA12E6000E34272 /* home-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E712B1DA12E6000E34272 /* home-100.png */; };
+		6E8E712E1DA12E6000E34272 /* pixzl-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E712C1DA12E6000E34272 /* pixzl-100.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		6E8E711B1DA1274800E34272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E8E711E1DA1274800E34272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E8E71201DA1274800E34272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8E712B1DA12E6000E34272 /* home-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home-100.png"; path = "Pixzl3DTouchShortcuts/Images/home-100.png"; sourceTree = "<group>"; };
+		6E8E712C1DA12E6000E34272 /* pixzl-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pixzl-100.png"; path = "Pixzl3DTouchShortcuts/Images/pixzl-100.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				6E8E711B1DA1274800E34272 /* Assets.xcassets */,
 				6E8E711D1DA1274800E34272 /* LaunchScreen.storyboard */,
 				6E8E71201DA1274800E34272 /* Info.plist */,
+				6E8E712A1DA12AD500E34272 /* Images */,
 				6E8E710F1DA1274800E34272 /* Supporting Files */,
 			);
 			path = Pixzl3DTouchShortcuts;
@@ -77,6 +82,16 @@
 				6E8E71101DA1274800E34272 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E8E712A1DA12AD500E34272 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6E8E712B1DA12E6000E34272 /* home-100.png */,
+				6E8E712C1DA12E6000E34272 /* pixzl-100.png */,
+			);
+			name = Images;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +154,9 @@
 			files = (
 				6E8E711F1DA1274800E34272 /* LaunchScreen.storyboard in Resources */,
 				6E8E711C1DA1274800E34272 /* Assets.xcassets in Resources */,
+				6E8E712D1DA12E6000E34272 /* home-100.png in Resources */,
 				6E8E711A1DA1274800E34272 /* Main.storyboard in Resources */,
+				6E8E712E1DA12E6000E34272 /* pixzl-100.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +289,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Pixzl3DTouchShortcuts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.pixzl.Pixzl3DTouchShortcuts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,7 +302,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Pixzl3DTouchShortcuts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.pixzl.Pixzl3DTouchShortcuts;
 				PRODUCT_NAME = "$(TARGET_NAME)";

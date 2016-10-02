@@ -41,5 +41,34 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>pixzl-100.png</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Pixzl</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>Pixzl</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>info</key>
+				<real>0</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>home-100.png</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Open</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>Open</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>info</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>
